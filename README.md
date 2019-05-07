@@ -28,10 +28,7 @@
 #### Terminal installation
 
 ```sh
-cd /tmp && rm -rf flat-remix-gtk &&
-git clone https://github.com/daniruiz/flat-remix-gtk &&
-mkdir -p ~/.themes && cp -r flat-remix-gtk/Flat-Remix-GTK* ~/.themes/ &&
-gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK"
+curl -s https://github.com/eliseuegewarth/flat-remix-gtk/blob/master/install.sh | bash
 ```
 
 #### Ubuntu based distributions:
